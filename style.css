@@ -1,0 +1,515 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+/*----- Home -----*/
+#hero{
+  height: 100vh;
+  background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(burger.jpg);
+  background-position: center;
+  background-size: cover;
+  overflow-x: hidden;
+  position: relative;
+}
+.nav-bar{
+  display: flex;
+}
+.nav-logo img{
+  padding: 40px 70px;
+  width: 135px;
+}
+.nav-logo a:hover{
+  cursor: pointer;
+}
+.btn{
+  padding: 10px 20px;
+  border: 0;
+  background: yellow;
+  font-weight: bold;
+  cursor: pointer;
+  text-decoration: none;
+  color: #000;
+}
+.btn:hover{
+  color: #000;
+  background: gold;
+}
+.nav-links .btn{
+  margin-top: 34px;
+  margin-left: 950px;
+}
+ul li.end2 {
+  list-style-type: none;
+  padding-top: 10px;
+  margin-left: 900px;
+  cursor: pointer;
+}
+
+ul li a {
+  text-decoration: none;
+  padding: 15px 20px;
+  font-size: 15px;
+  font-family: ubuntu;
+  font-weight: bold;
+  position: relative;
+  transition: 0.5s;
+}
+
+ul.profile {
+  background-color: black;
+  position: absolute;
+  top: 74px;
+  left: 81%;
+  width: 160px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  transition: 0.5s;
+  display: none;
+  flex-direction: column;
+}
+
+ul.profile li {
+  list-style-type: none;
+  padding-bottom: 10px;
+}
+
+ul.profile li a {
+  color: #b9b9b9;
+  text-decoration: none;
+  padding: 15px 20px;
+  font-size: 15px;
+  font-family: ubuntu;
+  font-weight: bold;
+  position: relative;
+  transition: 0.5s;
+}
+
+ul.profile li a:hover {
+  color: #fff;
+}
+
+.dropdown:hover .profile {
+  display: block;
+}
+
+.banner-title{
+  margin: 80px 130px;
+  color: #fff;
+}
+.banner-title h1{
+  font-size: 64px;
+  margin-bottom: 30px;
+}
+.banner-title h1 span{
+  color: yellow;
+}
+/*------ Restaurants -------*/
+.container1{
+  display: flex;
+}
+.text-center{
+  margin-left: 40%;
+  margin-top: 16px;
+  margin-bottom: 7px;
+}
+.vall{
+  position: absolute;
+  color: 	#252525;
+  margin-left: 90%;
+  margin-top: 23px;
+  font-weight: bold;
+}
+.food-menu-box{
+  border: 1px solid black;
+  width: 43%;
+  margin: 1%;
+  padding: 2%;
+  float: left;
+  border-radius: 15px;
+}
+.viewm{
+  text-decoration: none;
+  padding: 3px 9px;
+  border: 0;
+  color: #000;
+  background: yellow;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.viewm:hover{
+  color: #000;
+  background: gold;
+}
+.food-menu-img img{
+  width: 20%;
+}
+.img-curve{
+  border-radius: 5px;
+  float: left;
+}
+.food-menu-desc{
+  width: 70%;
+  float: left;
+  margin-left: 8%;
+}
+.food-detail{
+  font-size: 1rem;
+  color: #747d8c;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: clip;
+}
+/*------ Categories -------*/
+.categories{
+  padding: 4% 0;
+}
+.box-3{
+  width: 28%;
+  float: left;
+  margin: 2%;
+  position: relative;
+}
+.responsive{
+  width: 100%;
+  height: 80%;
+  border-radius: 15px;
+}
+.float-text{
+  position: absolute;
+  bottom: 50px;
+  left: 40%;
+  font-size: 1.5rem;
+}
+.text-white{
+  color: white;
+}
+/*------ Restaurants.php -------*/
+.hero1{
+  height: 50vh;
+  background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(bgboard.jpg);
+  background-size: cover;
+  overflow-x: hidden;
+  position: relative;
+}
+.hero1 h1{
+  color: #fff;
+  text-align: center;
+  margin-top: 100px;
+}
+.food-menu-box1{
+  border: 1px solid black;
+  width: 43%;
+  margin: 1%;
+  padding: 2%;
+  float: left;
+  border-radius: 15px;
+}
+.btn1{
+  padding: 10px 20px;
+  border: 0;
+  background: yellow;
+  font-weight: bold;
+  cursor: pointer;
+}
+.nav-links .btn1{
+  margin-top: 34px;
+  margin-left: 1025px;
+}
+.logo-r{
+  display: flex;
+}
+.logo-r img{
+  margin-left: 290%;
+  margin-top: 16%;
+  width: 200px;
+}
+/*------ Footer --------*/
+footer{
+  margin-top: 700px;
+  background: #111;
+  padding: 15px 23px;
+  color: #fff;
+  display: flex;
+}
+footer h3{
+  color: #b9b9b9;
+}
+footer a{
+  color: #b9b9b9;
+  text-decoration: none;
+}
+footer a:hover{
+  color: white;
+}
+.foot-logo img{
+  width: 135px;
+  margin-left: 180px;
+}
+.foot-logo a:hover{
+  cursor: pointer;
+}
+.foot-link{
+  padding-top: 14px;
+  margin-left: 150px;
+}
+.social{
+  padding-top: 14px;
+  margin-left: 150px;
+}
+.contact{
+  padding-top: 14px;
+  margin-left: 150px;
+}
+.fa-copyright{
+    padding-top: 10px;
+}
+.foot{
+  display: flex;
+  background: #111;
+  color: #fff;
+  padding-bottom: 10px;
+}
+center{
+  margin-left: 45%;
+}
+.foot p{
+  color: #fff;
+  position: absolute;
+  margin-left: 90%;
+  padding-top: 10px;
+}
+.foot a{
+  text-decoration: none;
+  color: #fff;
+}
+.about{
+  width: 60%;
+  margin: auto;
+  margin-top: 150px;
+  height: 800px;
+}
+/*------ Outlet -------*/
+.outlet-info {
+  position: relative;
+  top: 7px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.outlet-info span {
+  padding: 4px 0;
+}
+.outlet-info span:nth-child(1) {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.outlet-info span:nth-child(2) {
+  font-size: 20px;
+  opacity: 0.6;
+}
+.item-c {
+  position: relative;
+  margin: 12px 0;
+}
+
+.item-c .fas {
+  border: 2px solid black;
+  font-size: 14px;
+}
+
+.item-c span:nth-child(2) {
+  position: absolute;
+  top: 10px;
+  left: 17px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.item-c span:nth-child(3) {
+  position: absolute;
+  top: 15px;
+  left: 100px;
+  font-size: 15px;
+  opacity: 0.7;
+}
+
+.item-c span:nth-child(4) {
+  position: absolute;
+  top: 120px;
+  left: 170px;
+  font-size: 15px;
+}
+
+.item-c span:nth-child(5) {
+  position: absolute;
+  top: 15px;
+  left: 200px;
+  font-size: 15px;
+  opacity: 0.7;
+}
+
+.item-c span:nth-child(6) {
+  position: absolute;
+  left: 300px;
+  top: 10px;
+}
+/*------ Login -------*/
+.bodybg{
+  background: url(background.jpg);
+  background-size: cover;
+  background-position: center;
+  font-family: sans-serif;
+  height: 100vh;
+}
+.loginbox{
+  width: 320px;
+  height: 420px;
+  background: #000;
+  color: #fff;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%,-50%);
+  box-sizing: border-box;
+  padding: 70px 30px;
+}
+.avatar{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 50px);
+}
+.loginbox h1{
+  margin: 0;
+  padding: 0 0 20px;
+  text-align: center;
+  font-size: 22px;
+}
+.loginbox p{
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+}
+.loginbox input{
+  width: 100%;
+  margin-bottom: 20px;
+}
+.loginbox input[type="text"], input[type="password"] {
+  border: none;
+  border-bottom: 1px solid #fff;
+  background: transparent;
+  outline: none;
+  height: 40px;
+  color: #fff;
+  font-size: 16px;
+}
+.loginbox input[type="submit"]{
+  border: none;
+  outline: none;
+  height: 40px;
+  background: yellow;
+  color: #000;
+  font-size: 18px;
+  border-radius: 20px;
+}
+.loginbox input[type="submit"]:hover{
+  cursor: pointer;
+  background: gold;
+  color: #000;
+}
+.loginbox a{
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 20px;
+    color: darkgrey;
+}
+.loginbox a:hover{
+  color: yellow;
+}
+/*------ Register -------*/
+.reg{
+  background-image: url(bg.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 150vh;
+}
+.sign-up-form{
+  width: 400px;
+  height: 800px;
+  background: #000;
+  color: #fff;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%,-50%);
+  box-sizing: border-box;
+  padding: 70px 30px;
+  margin-top: 150px;
+}
+.sign-up-form h1{
+  margin: 0;
+  padding: 0 0 20px;
+  text-align: center;
+  font-size: 22px;
+}
+.sign-up-form p{
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+}
+.sign-up-form input{
+  width: 100%;
+  margin-bottom: 20px;
+}
+.sign-up-form h1{
+  margin-bottom: 30px;
+}
+.sign-up-form .avatar{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  position: absolute;
+  top: -50px;
+  left: calc(50% - 50px);
+}
+.input-box{
+  border: none;
+  border-bottom: 1px solid #fff;
+  background: transparent;
+  outline: none;
+  height: 40px;
+  color: #fff;
+  font-size: 16px;
+}
+.sign-btn{
+  border: none;
+  outline: none;
+  height: 40px;
+  background: yellow;
+  color: #000;
+  font-size: 18px;
+  border-radius: 20px;
+  width: 150px;
+  margin-left: 2px;
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+.sign-btn:hover{
+  cursor: pointer;
+  background: gold;
+  color: #000;
+}
+.sign-up-form a{
+  text-decoration: none;
+  color: yellow;
+}
+.error{
+  color: #ff0033;
+}
